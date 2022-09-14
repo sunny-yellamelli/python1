@@ -43,4 +43,6 @@ def edit(request):
         'form': user_form
     }            
 
+
+
     return render(request,'authapp/edit.html',context=context)
