@@ -42,7 +42,6 @@ def edit(request):
     context = {
         'form': user_form
     }            
-
-
-
     return render(request,'authapp/edit.html',context=context)
+
+    newlibw added
